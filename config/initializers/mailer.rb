@@ -4,7 +4,7 @@ ActionMailer::Base.smtp_settings = {
   :domain => 'noreply@echo-logic.org',
   :authentication => :login,
   :user_name => 'noreply@echo-logic.org',
-  :password => 'nreopbosP@ss'
+  :password => ''
 }
 
 ActionMailer::Base.raise_delivery_errors = true
